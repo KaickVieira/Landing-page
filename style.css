@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@media screen and (min-width:300px) {
+
+#img-grande{
+    display: none;
+}  
+
+body {
+    width: 93%;
+    height: 100%;
+}
+header {
+    padding: 5px;
+    border: 1.3px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+    border-radius: 5px;
+}
+header > a {
+    margin-left: 45px;
+}
+#logo {
+    width: 30%;
+    
+}
+
+main h1 {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+main h2 {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#htmlcss img {
+    width: 50%;
+}
+
+#htmlcss a {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#js img {
+    width: 23%;
+}
+
+#js a {
+    margin-left: 110px;
+    font-size: 20px;
+}
+
+.linguagens {
+    border: 1px solid black;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+#php img {
+    width: 50%;
+}
+
+#php a {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#python img {
+    width: 40%;
+}
+
+#python a {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#mysql img {
+    width: 40%;
+}
+
+#mysql a {
+    margin-left: 50px;
+    font-size: 20px;
+}
+.linguagens a {
+    border: 1px solid red;
+}
+}
