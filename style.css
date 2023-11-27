@@ -16,6 +16,7 @@ header {
     border: 1.3px solid black;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
     border-radius: 5px;
+    display: block;
 }
 #links {
     font-size: 15px;
@@ -28,6 +29,7 @@ header {
     padding: 10px;
 }
 #logo {
+    display: block;
     width: 30%;
 }
 
@@ -55,7 +57,35 @@ main h2 {
 }
 
 #js a {
-    margin-left: 100px;
+    margin-left: 86px;
+    font-size: 20px;
+}
+
+
+#php img {
+    width: 50%;
+}
+
+#php a {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#python img {
+    width: 40%;
+}
+
+#python a {
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+#mysql img {
+    width: 40%;
+}
+
+#mysql a {
+    margin-left: 30px;
     font-size: 20px;
 }
 
@@ -67,39 +97,15 @@ main h2 {
     border-radius: 4px ;
 }
 
-#php img {
-    width: 50%;
-}
-
-#php a {
-    margin-left: 20px;
-    font-size: 20px;
-}
-
-#python img {
-    width: 40%;
-}
-
-#python a {
-    margin-left: 50px;
-    font-size: 20px;
-}
-
-#mysql img {
-    width: 40%;
-}
-
-#mysql a {
-    margin-left: 50px;
-    font-size: 20px;
-}
 .linguagens a {
+    width: 25px;
     border: 1px solid black;
     border-radius: 3px;
     background-color: #1A2E35;
     color: white;
     text-decoration: none;
     padding: 5px;
+    
 }
 
 
