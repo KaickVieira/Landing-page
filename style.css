@@ -44,20 +44,21 @@ main h2 {
 }
 
 #htmlcss img {
-    width: 50%;
+    width: 90px;
+    
 }
 
 #htmlcss a {
-    margin-left: 10px;
+    margin: 10px;
     font-size: 20px;
 }
 
 #js img {
-    width: 23%;
+    width: 50px;
 }
 
 #js a {
-    margin-left: 86px;
+    margin-left: 50px;
     font-size: 20px;
 }
 
