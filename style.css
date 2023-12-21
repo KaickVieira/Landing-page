@@ -2,11 +2,12 @@
 
 @media screen and (min-width: 300px){
 
+    
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
+   
     --cor1: #385A64;
     --cor2: #67A49C;
     --cor3: #018673;
@@ -14,20 +15,24 @@
     --cor5: #1A2E35;
 }    
 
+#img-grande {
+    display: none;
+}
+
+
 header {
 border: 2px solid black;
 background-color: var(--cor2);
 
 width: 95%;
 
-display: flex;
-justify-content: center;
+
 }
 
 header img {
-    width: 20%;
+    width: 40%;
+    border: 1px solid red;
 }
-
 
 
 }
