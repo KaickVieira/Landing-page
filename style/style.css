@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 300px){
+
+    
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+    --cor1: #385A64;
+    --cor2: #67A49C;
+    --cor3: #018673;
+    --cor4: #98A9B0;
+    --cor5: #1A2E35;
+}    
+
+header {
+    border: 1px solid var(--cor5);
+    box-sizing: border-box  ;
+
+    width: 70%;
+    height: 20vh;
+
+    margin: auto;
+    margin-top: 10px;
+
+    display: flex;
+    
+    
+}
+header > img {
+    
+    width: 12%;
+    height: 15vh;
+    margin-left: 10px;
+    margin-top: 25px;
+    
+}
+header > nav {
+    border: 1px solid black;
+    width: 10%;
+    height: 5vh;
+    margin-top: 20px;
+    margin-left: 750px;
+}
+}
